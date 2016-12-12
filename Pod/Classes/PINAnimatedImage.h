@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 #import "PINRemoteImageMacros.h"
 
 #define PINAnimatedImageDebug  0

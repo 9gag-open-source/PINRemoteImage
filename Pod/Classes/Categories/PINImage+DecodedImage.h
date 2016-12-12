@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PINRemoteImageMacros.h"
 
 #if PIN_TARGET_IOS
 #import <UIKit/UIKit.h>
@@ -14,7 +15,6 @@
 #import <Cocoa/Cocoa.h>
 #endif
 
-#import "PINRemoteImageMacros.h"
 
 #if !PIN_TARGET_IOS
 @interface NSImage (PINiOSMapping)
