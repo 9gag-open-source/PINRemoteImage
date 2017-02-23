@@ -10,7 +10,7 @@
 
 #import <pthread.h>
 
-#import <PINOperation/PINOperation.h>
+#import "PINOperation.h"
 
 #define PINDiskCacheError(error) if (error) { NSLog(@"%@ (%d) ERROR: %@", \
 [[NSString stringWithUTF8String:__FILE__] lastPathComponent], \
